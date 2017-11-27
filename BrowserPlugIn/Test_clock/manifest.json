@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "我的时钟",
+    "name": "My clock",
     "version": "1.0",
-    "description": "我的第一个Chrome扩展",
+    "description": "My first Chrome extentions",
     "icons": {
         "16": "images/icon16.png",
         "48": "images/icon48.png",
@@ -13,7 +13,7 @@
             "19": "images/icon19.png",
             "38": "images/icon38.png"
         },
-        "default_title": "我的时钟",
+        "default_title": "My clock",
         "default_popup": "popup.html"
     }
 }
