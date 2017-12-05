@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Work Tools",
+    "version": "1.0",
+    "description": "Work Tools",
+    "browser_action": {
+        "default_icon": "images/icon01.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["https://*/"],
+        //"exclude_matches": ["http://*/"],
+        "js": ["scripts/worktools.js"],
+        "run_at": "document_start"
+
+    }],
+    "permissions": ["tabs", "activeTab"],
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+}
